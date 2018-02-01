@@ -8,6 +8,20 @@
 body {
   font-size: 60px;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+.parallax {
+  /* CREATED USING AN ONLINE GUIDE, A FEW ORIGINAL LINES, SOME COPIED LINES */
+  background-image: url("https://pbs.twimg.com/media/DMDcYPdVwAA7MBl.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .img-circle {
   border-radius: 50%;
