@@ -6,9 +6,16 @@
   grid-template-columns: 600px 1200px;
 }
 body {
-  font-size: 80px;
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
-
+.img-circle {
+  border-radius: 50%;
+}
+img {
+  height: 50%;
+  width: 50%;
+}
 .child-one {
 grid-row: 1;
 grid-column: 1 / span 2;
